@@ -1,0 +1,104 @@
+* {
+    font-family: 'Wellfleet', cursive;
+    font-family: 'Cherry Bomb One', cursive;
+    font-family: 'Cedarville Cursive', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: large;
+}
+
+.Cuadro {
+    width: 200px;
+    height: 200px;
+    opacity: .0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://www.solofondos.com/wp-content/uploads/2021/03/wp6400060-scaled.jpg);
+    height: 1220px;
+}
+
+header {
+    height: 50px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/188/600/non_2x/abstract-blur-background-with-pastel-color-free-vector.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.icono {
+    margin-left: 10px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 80px;
+}
+
+.item {
+    border-radius: 30px;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/736x/03/17/f3/0317f3a78d9b97373965bd15a0ba1111.jpg);
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    gap: 200px;
+    flex-direction: row;
+    margin-top: 140px;
+}
+
+section img {
+    border-radius: 60px;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: .6s ease;
+}
+
+section img:hover {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+a {
+    color: black;
+}
+
+li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+footer {
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+button {
+    margin-left: 200px;
+    font-size: larger;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/188/600/non_2x/abstract-blur-background-with-pastel-color-free-vector.jpg);
+}

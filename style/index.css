@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-family: 'Wellfleet', cursive;
+    font-family: 'Cherry Bomb One', cursive;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/Diseño\ sin\ título\ \(9\).png);
+    justify-content: center;
+    height: 570px;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1400px;
+    gap: 700px;
+    
+}
+nav {
+    display: flex;
+    gap: 60px;
+    margin-top: 10px;
+    text-align: center;
+}
+
